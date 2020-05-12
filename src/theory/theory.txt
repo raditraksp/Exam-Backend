@@ -1,0 +1,9 @@
+INSTALL
+
+1. Express -> untuk membuat route API
+
+2. Mysql -> untuk connect ke database
+
+3. Bcrypt -> untuk hash password
+
+4. Multer -> untuk upload foto
