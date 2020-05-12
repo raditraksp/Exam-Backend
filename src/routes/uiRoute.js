@@ -3,7 +3,7 @@ const conn = require('../config/db')
 
 
 ////////////////////////////////////
-///   T A B E L   S T O R E     ////
+///   T A B E L   INVENTORY     ////
 ////////////////////////////////////
 
 // R E A D   U I //
