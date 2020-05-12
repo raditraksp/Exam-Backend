@@ -43,10 +43,10 @@ router.post('/inventory', (req, res) => {
     })
 })
 
-// U P D A T E    I N V E N T O R Y   S T O  C K //
+// U P D A T E    I N V E N T O R Y   S T O C K //
 router.patch('/inventory/:inventory_id', (req, res) => {
    
-    const sql = `UPDATE inventory SET ? WHERE inventory_id = ?`
+    const sql = `UPDATE inventory SET inventory = ? WHERE inventory_id = ?`
     const data = [req.body, req.params.inventory_id]
     // Running query
     conn.query(sql, data, (err, result) => {
