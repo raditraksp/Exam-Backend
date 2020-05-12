@@ -3,10 +3,10 @@ const app = express()
 const port = 2000
 
 // import route
-const heroesRouter = require('./src/routes/heroesRouter')
+const productRouter = require('./src/routes/productRoute')
 
 app.use(express.json())
-app.use(heroesRouter)
+app.use(productRouter)
 
 app.get('/', (req, res) => {
     res.send( 
