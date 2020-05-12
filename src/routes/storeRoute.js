@@ -19,7 +19,7 @@ router.post('/store', (req, res) => {
   
        // Jika berhasil, kirim object
        res.send({
-          message: 'Brance Name Added',
+          message: 'Store Added',
        })
     })
 })
